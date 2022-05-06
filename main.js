@@ -2,6 +2,7 @@
 // mostrare / nascondere il menu principale (mobile)
 
 const button = document.querySelector(".fas");
+const buttonClose = document.querySelector(".close");
 
 button.addEventListener('click',
 
@@ -9,8 +10,6 @@ button.addEventListener('click',
         document.querySelector(".hamburger-menu").className = "hamburger-menu active";
     }
 );
-
-const buttonClose = document.querySelector(".close");
 
 buttonClose.addEventListener('click',
 
